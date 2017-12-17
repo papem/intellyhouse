@@ -1,0 +1,58 @@
+body
+{
+   /* background-color: rgba(246, 253, 255, 0.979);*/
+    color: black;
+    background-image: url("Content/images/Maison.png");
+    background-attachment: fixed; /* Le fond restera fixe */
+}
+h1,h2,h3,h4
+{
+    text-align: center;
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif; /* Impact, si marche pas Arial Black... */
+    
+}
+
+#header
+{
+ /*   background-color: rgba(246, 253, 255, 0.979);*/
+
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.element1, .element2, .element3
+{
+width: 300px;
+text-align: justify;
+padding: 12px;
+margin: 50px;/* Marge extérieure de 50px */
+}
+
+#acceuil
+{
+    
+    color: rgb(70, 67, 67);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#bienvenue
+{
+    
+    color: rgb(70, 67, 67);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    
+}
+
+.Connexion
+{
+    align-items: center;  
+}
